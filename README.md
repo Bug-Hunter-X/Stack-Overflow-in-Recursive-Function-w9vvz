@@ -1,0 +1,1 @@
+This repository demonstrates a common error in recursive functions written in Hack: stack overflow due to missing or incorrect base cases. The `foo` function calculates factorials, but lacks handling for negative inputs, leading to infinite recursion. The `bug.hack` file contains the erroneous code, while `bugSolution.hack` provides a corrected version.
